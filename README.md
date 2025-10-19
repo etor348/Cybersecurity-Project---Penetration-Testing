@@ -12,7 +12,40 @@ Performed a scoped penetration test against the target(s) to identify vulnerabil
 ---
 
 ## Executive summary
-Performed a scoped penetration test against the target(s) to identify vulnerabilities, assess impact, and provide prioritized remediation. Findings include low→high severity issues across authentication, configuration, and information disclosure. No destructive exploitation performed.
+This penetration testing project was conducted to assess the security posture of a vulnerable 
+system in a controlled lab environment. The primary objective was to simulate real-world 
+attack scenarios using industry-standard tools and methodologies, with the aim of identifying 
+security 
+weaknesses, 
+countermeasures. 
+validating 
+exploitability, 
+and 
+recommending appropriate 
+The engagement followed a structured penetration testing lifecycle, beginning with 
+reconnaissance and information gathering, followed by vulnerability identification, 
+exploitation, and post-exploitation analysis. During the reconnaissance phase, Nmap was 
+utilized with the nmap -A command to detect open ports, running services, operating system 
+details, and possible service versions. This enabled a comprehensive mapping of the target’s 
+attack surface. 
+Subsequent exploitation was performed using the Metasploit Framework (MSF), leveraging 
+its modular capabilities to identify and exploit known vulnerabilities. Once access was 
+obtained, the focus shifted to maintaining persistence, privilege escalation, and gathering 
+evidence of compromise. Screenshots and console outputs were documented throughout the 
+process to validate findings and ensure reproducibility. 
+Key findings from the assessment highlighted multiple exploitable misconfigurations and 
+outdated services that could allow an attacker to gain unauthorized access. These weaknesses, 
+while expected in a lab-based vulnerable machine, serve as critical lessons for securing 
+production systems. 
+Recommendations include implementing timely patch management, enforcing strict access 
+controls, network segmentation, and deploying security monitoring solutions to detect 
+abnormal activity. Adopting a defense-in-depth approach will significantly reduce the 
+likelihood of a successful intrusion. 
+In conclusion, this project provided practical, hands-on experience in conducting penetration 
+testing using recognized tools such as Nmap and MSF. The exercise not only exposed 
+vulnerabilities but also reinforced the importance of proactive security measures. The insights 
+gained are directly applicable to both academic learning and real-world cybersecurity 
+operations, supporting the development of stronger defenses against evolving threats.
 
 ---
 
